@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>System Upgrade Overview</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['Playfair Display', 'Georgia', 'serif'],
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+          },
+          colors: {
+            creamBg: '#FDFBF7',
+            taupeCard: '#F7F3EC',
+            taupeBorder: '#E8E2D8',
+            charcoal: '#2C2A29',
+            mutedText: '#706C66',
+            sageBg: '#E2EFE0',
+            sageText: '#254E22',
+            sageBorder: '#C3DFBE',
+            amberBg: '#FEF3D6',
+            amberText: '#7A5200',
+            amberBorder: '#F9E2A8',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-creamBg text-charcoal min-h-screen font-sans p-6 sm:p-12 flex flex-col justify-between selection:bg-taupeBorder">
+
+  <div class="max-w-4xl mx-auto w-full space-y-10">
+
+    <!-- Editorial Header -->
+    <header class="border-b border-taupeBorder pb-8 flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4">
+      <div>
+        <p class="text-xs uppercase tracking-[0.25em] text-mutedText font-semibold mb-2">Hardware Allocation Strategy</p>
+        <h1 class="font-serif text-3xl sm:text-4xl font-normal tracking-tight text-charcoal">System Upgrade Index</h1>
+      </div>
+      <div class="text-left sm:text-right">
+        <span class="text-xs font-serif italic text-mutedText block">Target Timeline & Engine</span>
+        <span class="text-sm font-medium tracking-wide">Q1 2026 • BuyHatke Tracked</span>
+      </div>
+    </header>
+
+    <!-- Component Grid -->
+    <section class="grid grid-cols-1 gap-6">
+
+      <!-- Item 1: SSD -->
+      <div class="bg-taupeCard border border-taupeBorder rounded-2xl p-6 sm:p-8 flex flex-col md:flex-row justify-between items-start md:items-center gap-6 transition hover:border-neutral-300">
+        <div class="space-y-2 max-w-lg">
+          <div class="flex items-center gap-3">
+            <span class="font-serif italic text-xs text-mutedText">01. Storage Component</span>
+            <span class="text-[11px] font-semibold tracking-wider uppercase bg-sageBg text-sageText border border-sageBorder px-2.5 py-0.5 rounded-full">
+              Buy Now (Best Price)
+            </span>
+          </div>
+          <h2 class="font-serif text-xl sm:text-2xl font-medium text-charcoal">Crucial P3 500GB NVMe M.2 SSD</h2>
+          <p class="text-xs text-mutedText leading-relaxed">Sourced via Amazon.in or Local Computer Shop. Recommended for system drive acceleration.</p>
+        </div>
+
+        <div class="flex flex-row md:flex-col items-end justify-between w-full md:w-auto pt-4 md:pt-0 border-t md:border-0 border-taupeBorder gap-3">
+          <div class="text-left md:text-right">
+            <span class="text-[11px] uppercase tracking-widest text-mutedText block">Target: ₹2,800 – ₹3,400</span>
+            <span class="font-serif text-2xl font-bold text-charcoal">₹2,724</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <!-- BuyHatke Price History & Compare Link -->
+            <a href="https://buyhatke.com/amazon-crucial-p3-500gb-nvme-pcie-m2-ssd-price-in-india" target="_blank" rel="noopener" class="text-xs bg-amber-100 hover:bg-amber-200 text-amber-900 border border-amber-300 px-3 py-2 rounded-xl font-medium inline-flex items-center gap-1.5 transition" title="Check BuyHatke Price History">
+              <i class="fa-solid fa-chart-line text-[10px]"></i>
+              <span>BuyHatke</span>
+            </a>
+            <a href="https://www.amazon.in/dp/B0B25LQQPC" target="_blank" rel="noopener" class="text-xs bg-charcoal text-creamBg px-4 py-2 rounded-xl font-medium inline-flex items-center gap-2 transition opacity-90 hover:opacity-100">
+              <span>Buy Now</span>
+              <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 2: RAM -->
+      <div class="bg-taupeCard border border-taupeBorder rounded-2xl p-6 sm:p-8 flex flex-col md:flex-row justify-between items-start md:items-center gap-6 transition hover:border-neutral-300">
+        <div class="space-y-2 max-w-lg">
+          <div class="flex items-center gap-3">
+            <span class="font-serif italic text-xs text-mutedText">02. Memory Expansion</span>
+            <span class="text-[11px] font-semibold tracking-wider uppercase bg-amberBg text-amberText border border-amberBorder px-2.5 py-0.5 rounded-full">
+              Fair Price (Wait / Check)
+            </span>
+          </div>
+          <h2 class="font-serif text-xl sm:text-2xl font-medium text-charcoal">Crucial 8GB DDR4 Laptop RAM</h2>
+          <p class="text-xs text-mutedText leading-relaxed">Sourced via Amazon.in or Local Computer Shop. SODIMM 3200MHz memory module.</p>
+        </div>
+
+        <div class="flex flex-row md:flex-col items-end justify-between w-full md:w-auto pt-4 md:pt-0 border-t md:border-0 border-taupeBorder gap-3">
+          <div class="text-left md:text-right">
+            <span class="text-[11px] uppercase tracking-widest text-mutedText block">Target: ₹1,600 – ₹2,200</span>
+            <span class="font-serif text-2xl font-bold text-charcoal">₹1,949</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <!-- BuyHatke Price History & Compare Link -->
+            <a href="https://buyhatke.com/amazon-crucial-8gb-ddr4-3200mhz-laptop-memory-ram-price-in-india" target="_blank" rel="noopener" class="text-xs bg-amber-100 hover:bg-amber-200 text-amber-900 border border-amber-300 px-3 py-2 rounded-xl font-medium inline-flex items-center gap-1.5 transition" title="Check BuyHatke Price History">
+              <i class="fa-solid fa-chart-line text-[10px]"></i>
+              <span>BuyHatke</span>
+            </a>
+            <a href="https://www.amazon.in/dp/B08C4Z69LN" target="_blank" rel="noopener" class="text-xs bg-charcoal text-creamBg px-4 py-2 rounded-xl font-medium inline-flex items-center gap-2 transition opacity-90 hover:opacity-100">
+              <span>Buy Now</span>
+              <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 3: Service -->
+      <div class="bg-taupeCard border border-taupeBorder rounded-2xl p-6 sm:p-8 flex flex-col md:flex-row justify-between items-start md:items-center gap-6 transition hover:border-neutral-300">
+        <div class="space-y-2 max-w-lg">
+          <div class="flex items-center gap-3">
+            <span class="font-serif italic text-xs text-mutedText">03. Technical Labor</span>
+            <span class="text-[11px] font-semibold tracking-wider uppercase bg-neutral-200 text-neutral-700 border border-neutral-300 px-2.5 py-0.5 rounded-full">
+              Local Service
+            </span>
+          </div>
+          <h2 class="font-serif text-xl sm:text-2xl font-medium text-charcoal">Fitting & Clean Windows 11 Install</h2>
+          <p class="text-xs text-mutedText leading-relaxed">Local Computer Repair Shop service fee. Physical assembly, thermal cleanup, and OS installation.</p>
+        </div>
+
+        <div class="flex flex-row md:flex-col items-end justify-between w-full md:w-auto pt-4 md:pt-0 border-t md:border-0 border-taupeBorder gap-3">
+          <div class="text-left md:text-right">
+            <span class="text-[11px] uppercase tracking-widest text-mutedText block">Target: ₹300 – ₹500</span>
+            <span class="font-serif text-2xl font-bold text-charcoal">₹400</span>
+          </div>
+          <span class="text-xs font-serif italic text-mutedText">Offline Fee</span>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Summary Box -->
+    <footer class="border-t border-taupeBorder pt-8 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+      <div>
+        <span class="text-xs uppercase tracking-[0.2em] text-mutedText font-semibold block">Budget Target Range</span>
+        <span class="font-serif text-lg text-charcoal">₹4,700 – ₹6,100 Overall</span>
+      </div>
+      <div class="text-left sm:text-right">
+        <span class="text-xs uppercase tracking-[0.2em] text-mutedText font-semibold block">Total Estimated Cost</span>
+        <span class="font-serif text-3xl font-bold text-charcoal">₹5,073</span>
+      </div>
+    </footer>
+
+  </div>
+
+</body>
+</html>
